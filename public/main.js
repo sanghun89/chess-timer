@@ -369,6 +369,8 @@ var Player = (function (_Node) {
 
             this.passButton.innerHTML = _config.ACTIONS.INITIAL;
             this.isPlayersTurn = false;
+            this.passButton.disabled = false;
+
             this.clock.reset();
         }
     }]);
