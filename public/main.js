@@ -455,7 +455,7 @@ var ACTIONS = {
     DURATION: 'End Turn'
 };
 
-var MINUTE_LIMIT = 0.1;
+var MINUTE_LIMIT = 4;
 var MILLISECONDS = 1000;
 var TITLE = 'Chess Timer';
 
