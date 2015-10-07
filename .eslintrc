@@ -2,6 +2,7 @@
   // http://eslint.org/docs/rules/
 
   "ecmaFeatures": {
+    "modules" : 1,
     "binaryLiterals": 1,                    // enable binary literals
     "blockBindings": 1,                     // enable let and const (aka block bindings)
     "defaultParams": 1,                     // enable default function parameters
