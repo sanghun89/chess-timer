@@ -76,7 +76,10 @@ class Clock extends Node {
     reset() {
         this.timeLeft = MINUTE_LIMIT * 60 * 1000;
         this.paused = true;
-        this.interval = null;
+        if (this.interval) {
+            clearInterval(this.interval);
+            this.interval = null;
+        }
         this.finished = null;
         this.initState();
     }
