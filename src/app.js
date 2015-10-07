@@ -27,6 +27,11 @@ game.registerGameLogic('endTurn', (player) => {
         return;
     }
 
+    if (player.clock.timeLeft === 0) {
+        player.clock.reset();
+        opponent.clock.reset();
+    }
+
     player.endTurn();
 
     if (opponent.clock.timeLeft > 0) {
