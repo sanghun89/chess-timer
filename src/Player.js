@@ -66,7 +66,7 @@ class Player extends Node {
         this.passButton.innerHTML = ACTIONS.INITIAL;
         this.isPlayersTurn = false;
         this.passButton.disabled = false;
-        
+
         this.clock.reset();
     }
 }

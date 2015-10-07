@@ -80,7 +80,6 @@ class Clock extends Node {
             clearInterval(this.interval);
             this.interval = null;
         }
-        this.finished = null;
         this.initState();
     }
 }
